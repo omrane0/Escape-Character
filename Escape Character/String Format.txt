@@ -1,0 +1,9 @@
+age = 36
+txt = "My name is John, I am " + age
+print(txt) 
+
+
+Traceback (most recent call last):
+  File "demo_string_format_error.py", line 2, in <module>
+    txt = "My name is John, I am " + age
+TypeError: must be str, not int
